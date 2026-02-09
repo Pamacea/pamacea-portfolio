@@ -20,7 +20,7 @@ export const projectsData: TypeProjects[] = [
     proofPicture: "/images/realization/portfolio-3d.png",
     logo: "",
     description:
-      "Site portfolio personnel développé avec Next.js, mettant en valeur des projets personnels, compétences et expériences.",
+      "Un portfolio transporté dans un univers 3D, mêlant la technologie et la créativité pour offrir une experience unique(work in progress).",
   },
   {
     name: "ARCHE",
