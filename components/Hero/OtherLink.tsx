@@ -10,14 +10,16 @@ export const OtherLink = () => {
         <LinkHeader />
         <div className="overflow-hidden rounded-2xl md:mx-8  border-2 border-bluetomidgray">
           <div className="flex w-[300px] h-[500px] flex-col gap-8 p-6 justify-center items-center">
+              <Link href="https://www.instagram.com/pama.eaa/">
             <Button variant="annexes" className=" p-4">
               <Instagram size={64} />  
-              <Link href="https://www.instagram.com/pama.eaa/"/>
               </Button>
+              </Link>
+              <Link href="https://www.linkedin.com/in/yanis-dessaint-3b995b251/">
               <Button variant="annexes" className="p-4">
               <Linkedin size={64} />  
-              <Link href="https://www.linkedin.com/in/yanis-dessaint-3b995b251/"/>
               </Button>
+              </Link>
           </div>
         </div>
       </div>
