@@ -1,3 +1,8 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub release](https://img.shields.io/github/v/release/Pamacea/pamacea-portfolio)](https://github.com/Pamacea/pamacea-portfolio/releases/latest)
+[![CI](https://github.com/Pamacea/pamacea-portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/Pamacea/pamacea-portfolio/actions)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
