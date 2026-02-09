@@ -4,7 +4,6 @@ import { Projects } from "@/components/Projects/Projects";
 import { Testimonials } from "@/components/Testimonials/Testimonials";
 import { Tools } from "@/components/Tools/Tools";
 import { Header } from "@/components/Header/Header";
-import { Analytics } from "@vercel/analytics/react"
 // import { getI18n } from "@/locales/server"
 
 export default function Home() {
@@ -20,7 +19,6 @@ export default function Home() {
         <Testimonials />
         <Contact />
       </div>
-      <Analytics />
     </>
   );
 }

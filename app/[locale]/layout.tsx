@@ -5,6 +5,7 @@ import type React from "react"; // Import React
 import { cn } from "@/lib/utils";
 import { Toaster } from "sonner";
 import { Providers } from "./providers";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -37,6 +38,7 @@ export default function RootLayout({
           tiltWarp.variable,
         )}
       >
+      <Analytics />
         <Providers params={params}>
           <main>{children}</main>
           <Toaster richColors />
