@@ -65,10 +65,10 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
             <Image src="/svg/lucideGithub.svg" alt="" width={24} height={24} className="size-4 lg:size-full mt-1 lg:mt-0" />
           </Link>
         ) : typeButton === "contact" ? (
-          <Link href="mailto:pamacea@live.fr" className="flex items-center gap-2 text-reversed font-semibold uppercase">
+          <a href="mailto:pamacea@live.fr" className="flex items-center gap-2 text-reversed font-semibold uppercase">
             <p>{t("contact")}</p>
             <Mail size={24} className="size-4 lg:size-full mt-1 lg:mt-0"/>
-          </Link>
+          </a>
         ) : (
           props.children
         )}
