@@ -16,7 +16,7 @@ export const OtherLink = () => {
               </Button>
               <Button variant="annexes" className="p-4">
               <Linkedin size={64} />  
-              <Link href="https://www.instagram.com/pama.eaa/"/>
+              <Link href="https://www.linkedin.com/in/yanis-dessaint-3b995b251/"/>
               </Button>
           </div>
         </div>
